@@ -86,6 +86,54 @@ head ~/operating-systems-20261/laboratories/lab0/output.txt
 tail ~/operating-systems-20261/laboratories/lab0/output.txt
 ```
 
+## 11) Subir el contenido a GitHub desde ~/operating-systems-20261/
 
+Ir a la raíz del repositorio:
 
+```bash
+cd ~/operating-systems-20261
+```
 
+Revisar estado:
+
+```bash
+git status
+```
+
+Agregar cambios del lab:
+
+```bash
+git add laboratories/lab0
+```
+
+Confirmar cambios:
+
+```bash
+git status
+```
+
+Hacer commit:
+
+```bash
+git commit -m "lab0: reto de shell y evidencias"
+```
+
+Subir a la rama main:
+
+```bash
+git push -u origin main
+```
+
+## 12) Shortcuts usados en Bash
+
+Tab: autocompletar rutas y comandos.
+
+Ctrl + R: búsqueda en el historial de comandos.
+
+Ctrl + A: ir al inicio de la línea.
+
+Ctrl + E: ir al final de la línea.
+
+Ctrl + C: cancelar un comando/proceso.
+
+!!: repetir el último comando.
