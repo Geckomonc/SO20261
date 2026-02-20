@@ -1,21 +1,16 @@
 # Lab0: Primeros pasos con la Shell y Entrega en GitHub (Operating Systems 2026-1)
 
 ## Objetivo
-Realizar un reto usando la terminal Bash para crear y manipular directorios/archivos, guardar evidencias (`path.txt`, `output.txt`), adjuntar capturas del curso RedHat (módulos 1 a 5) y subir todo a GitHub en la rama `main`.
-
----
+Realizar un reto usando la terminal Bash para crear y manipular directorios/archivos, guardar evidencias (path.txt, output.txt), adjuntar capturas del curso RedHat (módulos 1 a 5) y subir todo a GitHub en la rama main.
 
 ## 1) Integrantes:
 - Geraldine Acevedo Restrepo
-- Steven Alipio
-
----
+- Steven Alipio Berrio
 
 ## 2) Progreso en RedHat (Módulos 1 al 5)
 - Evidencias:
+  
   <img width="1380" height="682" alt="image" src="https://github.com/user-attachments/assets/e2b20462-2038-4550-9b8e-847e53f35033" />
-
----
 
 ## 3) Crear el directorio del laboratorio (lab0)
 Crear el directorio solicitado en la ruta:
