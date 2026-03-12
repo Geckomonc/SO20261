@@ -15,7 +15,7 @@ Este proyecto implementa un simulador de planificación de CPU con política Mul
 ## Estructura del Proyecto
 El proyecto sigue una estructura modularizada, con los siguientes directorios y archivos:
 
-<img width="192" height="320" alt="image" src="https://github.com/user-attachments/assets/ed1faa7e-666b-4da1-8288-041f8f53afd9" />
+<img width="150" height="99" alt="image" src="https://github.com/user-attachments/assets/fb4c50bd-64b9-4a17-976f-c73ac59016af" />
 
 ## Cómo compilar el programa
 Para compilar el programa, sigue estos pasos:
