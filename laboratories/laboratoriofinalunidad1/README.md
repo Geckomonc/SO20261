@@ -84,3 +84,22 @@ assets/results.csv
 
 <img width="385" height="52" alt="image" src="https://github.com/user-attachments/assets/93949aff-61f8-4b51-87cf-4d677b4e5375" />
 
+¿Qué ocurre si el boost es muy frecuente?
+
+Si el priority boost ocurre muy seguido, los procesos regresan constantemente a Q0, por lo que las colas bajas casi no conservan su función.
+En la práctica, el scheduler se comporta más parecido a un Round Robin con mucha prioridad alta, reduciendo el efecto de la retroalimentación entre niveles.
+
+¿Qué ocurre si no existe boost?
+
+Si no hay boost, los procesos largos que van bajando a Q1 o Q2 pueden quedarse esperando mucho tiempo, sobre todo si siguen llegando procesos nuevos a Q0.
+Esto hace que aumente el riesgo de inanición y empeore el tiempo de espera de los procesos de baja prioridad.
+
+¿Cómo afecta un quantum pequeño en la cola de mayor prioridad?
+
+Un quantum pequeño en la cola de mayor prioridad mejora el tiempo de respuesta de procesos nuevos o cortos, porque pueden ejecutarse rápido apenas llegan.
+Sin embargo, también provoca más cambios de contexto y hace que los procesos largos sean demovidos más rápido a colas inferiores.
+
+¿Puede haber starvation?
+
+Sí, puede haber starvation si no existe priority boost o si este ocurre muy tarde.
+Esto pasa porque un proceso en colas bajas puede ser postergado repetidamente mientras siguen llegando procesos a colas de prioridad superior.
