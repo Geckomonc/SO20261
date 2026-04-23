@@ -92,5 +92,3 @@ El laboratorio permitió comprobar que la concurrencia en sistemas distribuidos 
 La base de datos cumplió un papel fundamental en la coordinación del trabajo mediante transacciones y bloqueos, mientras que el uso de un índice único y escritura sincronizada sobre archivo permitió preservar la consistencia de la información.
 
 La solución final cumplió con los requisitos funcionales planteados y demostró un manejo adecuado de concurrencia, exclusión mutua y sincronización entre contenedores.
-```sql
-FOR UPDATE SKIP LOCKED
